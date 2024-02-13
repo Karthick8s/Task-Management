@@ -211,6 +211,7 @@ func createUser(c *gin.Context) {
 	c.JSON(http.StatusCreated, user)
 }
 
+// Get All users
 func getAllUsers(c *gin.Context) {
 	fmt.Println("Get users ")
 
